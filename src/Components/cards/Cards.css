@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+}
+.cards{
+
+}
+.cards-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #E8E8E8;
+    border-radius: 25px;
+    width: 300px;
+}
+.cards-box-place{
+    display: flex;
+    font-size: 20px;
+    column-gap: 50px;
+    padding: 15px 0px;
+}
+.cards-box-forecast{
+    padding: 15px 0px 10px 0px;
+}
+.weatherIcon{
+    padding: 22px 0px 15px 0px;
+    font-size: 90px;
+}

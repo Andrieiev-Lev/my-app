@@ -14,12 +14,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Nav/>
+  <Header/>
    <Cards/>
    <News/>
    <Footer/>
    <Slider/>
    <Chart/>
-   <Header/>
    <More/>
   </React.StrictMode>
 );
