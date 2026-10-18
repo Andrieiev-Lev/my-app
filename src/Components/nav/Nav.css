@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.nav-img {
+    width: 82px;
+    height: 56px;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    column-gap: 27px;
+}
+
+.nav-div-button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 35px;
+    background: #ffb36c;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+}
+
+.nav-container{
+    display:flex ;
+    column-gap: 116px;
+}
