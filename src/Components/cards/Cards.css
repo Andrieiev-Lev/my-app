@@ -1,28 +1,97 @@
-*{
+* {
     padding: 0;
 }
-.cards{
 
+.cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+    padding: 60px 0px 80px 0px;
 }
-.cards-box{
+
+.cards-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background: #E8E8E8;
     border-radius: 25px;
-    width: 300px;
+    width: 320px;
 }
-.cards-box-place{
+
+.cards-box-place {
     display: flex;
     font-size: 20px;
     column-gap: 50px;
     padding: 15px 0px;
 }
-.cards-box-forecast{
+
+.cards-box-forecast {
+    display: flex;
+    column-gap: 25px;
     padding: 15px 0px 10px 0px;
+
 }
-.weatherIcon{
+
+.cards-box-forecast-btn{
+    background: #FFB36C;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 115px;
+    height: 28px;
+}
+
+.cards-box-date{
+    display: flex;
+    column-gap: 13px;
+}
+
+.cards-box-line{
+    width: 2px;
+    height: 22px;
+    background: black;
+}
+
+.weatherIcon {
     padding: 22px 0px 15px 0px;
-    font-size: 90px;
+    font-size: 100px;
+    color: rgb(233, 208, 16);
+}
+
+.cards-box-deg {
+    font-size: 39px;
+}
+
+.cards-box-reaction {
+    display: flex;
+    padding: 39px 0px 21px;
+}
+
+.cards-box-reactions-reLike {
+    display: flex;
+    column-gap: 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cards-box-reaction-seeMore {
+    margin: 0px 37px;
+    width: 100px;
+    height: 28px;
+    background: #FFB36C;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cards-box-time {
+    font-size: 27px;
+}
+
+.cards-box-reaction-delete {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cards-box-reaction-reLike-like{
+    color: red;
 }
