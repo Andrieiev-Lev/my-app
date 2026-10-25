@@ -9,18 +9,23 @@ import Footer from './Components/footer/Footer';
 import Header from './Components/header/Header';
 import More from './Components/more/More';
 import Chart from './Components/chart/Chart';
+import Forecast from './Components/forecast/Forecast';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Nav/>
-  <Header/>
+   <Header/>
    <Cards/>
-   <News/>
-   <Footer/>
-   <Slider/>
-   <Chart/>
    <More/>
+   <Forecast/>
+   <Chart/>
+   <News/>
+   <Slider/>
+   <Footer/>
+
+
+
   </React.StrictMode>
 );
 

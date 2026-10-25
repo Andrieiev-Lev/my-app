@@ -16,10 +16,10 @@ function Cards() {
                     <button className="cards-box-forecast-btn">Hourly forecast</button>
                     <button className="cards-box-forecast-btn">Weekly forecast</button>
                 </div>
-                <div className="cards-box-date">
-                    <h3 className="cards-box-date">13.10.2023</h3>
+                <div className="cards-box-div">
+                    <h3 className="cards-box-div-date">13.10.2023</h3>
                     <span className="cards-box-line"></span>
-                    <h3 className="cards-box-date">Friday</h3>
+                    <h3 className="cards-box-div-date">Friday</h3>
                 </div>
                 <FiSun className="weatherIcon" />
                 <h3 className="cards-box-deg" >22℃</h3>

@@ -41,9 +41,10 @@
     height: 28px;
 }
 
-.cards-box-date{
+.cards-box-div{
     display: flex;
     column-gap: 13px;
+    margin-left: -25px;
 }
 
 .cards-box-line{

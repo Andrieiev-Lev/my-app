@@ -1,0 +1,32 @@
+.more-container{
+    margin: 0px 150px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E8E8E8;
+    border-radius: 16px;
+    padding: 40px 77px;
+
+}
+.more-container-box{
+    background: #D9D9D9;
+    width: 28%;
+    padding: 20px 0px;
+
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-container-box-headline{
+    margin-bottom: 10px;
+}
+.more-container-box-deg{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.more-container-box-icon{
+    width: 65px;
+    height: 65px;
+    align-self: center;
+}
