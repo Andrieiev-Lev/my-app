@@ -1,0 +1,19 @@
+.news {
+    margin: 0px 150px 80px 150px;
+}
+.news-container {
+    display: flex;
+    column-gap: 46px;
+    margin: 40px 0px;
+}
+.news-container-card {
+    width: 270px;
+}
+.news-btn {
+    width: 138px;
+    height: 40px;
+    background: #FFB36C;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 17px;
+}
