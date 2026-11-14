@@ -1,7 +1,7 @@
 import "./News.css"
 import { useEffect, useState } from "react";
 import axios from "axios";
-axios.defaults.baseURL = "https://newsapi.org/v2/";
+// axios.defaults.baseURL = "https://newsapi.org/v2/";
 
 function News() {
             const [newsApi, setNewsApi] = useState([])
@@ -11,8 +11,7 @@ function News() {
         const getNewsAPi = async () => {
 
             try {
-                const response = await axios.get("everything?q=tesla&apiKey=77c6de43884c4e079305c80f61bc33bd");
-                console.log(response)
+                const response = await axios.get("https://newsapi.org/v2/everything?q=tesla&apiKey=77c6de43884c4e079305c80f61bc33bd");
                 setNewsApi(response.data.articles);
             } catch (error) {
                 console.error('помилка', error)
