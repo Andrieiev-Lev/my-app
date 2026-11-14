@@ -10,6 +10,8 @@ import Header from './Components/header/Header';
 import More from './Components/more/More';
 import Chart from './Components/chart/Chart';
 import Forecast from './Components/forecast/Forecast';
+import ImageSlider from './Components/slider/ImageSlider';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

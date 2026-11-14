@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ImageSlider from "./ImageSlider";
 import "./Slider.css"
 import axios from "axios";
 axios.defaults.baseURL = " https://pixabay.com/api";
@@ -9,7 +10,7 @@ function Slider() {
         const getAPi = async () => {
             try {
                 const response = await axios.get("/?key=54652655-f0ef07fbcfc78ea73d9118d92");
-                console.log(response)
+                // console.log(response)
                 setApi(response.data.hits);
             } catch (error) {
                 console.error('помилка', error)
@@ -21,18 +22,11 @@ function Slider() {
 
 
     return (
-        <div>
+        <div  >
+            <ImageSlider images={api} />
             {/* <ArticleList myApi={api} /> */}
-            <ul>
-                {api.map(function (image) {
-                    return (
-                        <li key={image.id}>
-                            <img src={image.webformatURL} alt="" />
-                        </li>
-                    )
-                })}
-            </ul>
         </div>
     );
 }
+
 export default Slider
